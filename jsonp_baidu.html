@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html onselectstart="return false" ondragstart="return false">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jsonp百度首页</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="weather">
+            <ul>
+                <li><a href="#">广州</a></li>
+                <li><a href="#">22℃</a></li>
+                <li><a href="#">良72</a></li>
+            </ul>
+        </div>
+        <div class="navigation">
+                <ul>
+                    <li><a href="#">新闻</a></li>
+                    <li><a href="#">hao123</a></li>
+                    <li><a href="#">地图</a></li>
+                    <li><a href="#">视频</a></li>
+                    <li><a href="#">贴吧</a></li>
+                    <li><a href="#">学术</a></li>
+                    <li><a href="#">设置</a></li>
+                </ul>
+        </div>
+        <a class="more" href="#">
+            更多产品
+        </a>
+    </div>
+    <div class="box">
+        <img class="logo"  src="./images/logo.png">
+        <div class="searchGroup">
+            <input type="text" id="search" placeholder="请输入你的搜索内容"><button class="searchBtn">点击搜索</button>
+            <i class="carmeBtn" title='拍照上传'></i>
+            <ul id="list"></ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="s-nav">
+                <ul>
+                    <li><a href="#"><span style="line-height:13px;">&#10029;</span>我的关注</a></li>
+                    <li ><a href="#" class="s-nav-active">推荐</a></li>
+                    <li ><a href="#" >导航</a></li>
+                </ul>
+        </div>
+        <div class="content-left">
+            <div class="habbyTips">
+                    <img src="./images/icon.png" class="icon" alt="" srcset=""> 
+                    以下信息根据您的兴趣推荐
+            </div>
+            <ul>
+                <li>
+                    <div class="img">
+                        <img src="./images/iphoneX1.jpg" class="fill" alt="加载图片失败" >
+                    </div>
+                    <div class="text">
+                        <h2><a href="#" title="iPhone X的DxOMark“跑分”出来了：101分拍照...">iPhone X的DxOMark“跑分”出来了：101分拍照...</a></h2>
+                        <span>凤凰科技   11-07 11:49</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                            <img src="./images/iphoneX2.jpg" class="fill" alt="加载图片失败" >
+                    </div>
+                    <div class="text">
+                        <h2><a href="#" title="iPhone X：有史以来最易碎的iPhone">iPhone X：有史以来最易碎的iPhone</a></h2>
+                        <span>凤凰科技   11-07 11:49</span><div class="decorate">热点</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content-right">
+            <div class="content-right-header">
+                <div class="hot">实时热点</div>
+                <div class="change">
+                        <a href="#">&#9850;换一换</a>
+                </div>
+            </div>
+            <div>
+                <ul id="tabs">
+                    <li><a href="">法官被指醉酒开庭</a><div class="decorate">新</div></li>
+                    <li><a href="">鹦鹉案二审开庭</a><div class="decorate">新</div></li>
+                    <li><a href="">武僧一龙被KO</a><div class="decorate">新</div></li>
+                    <li><a href="">智能设备优惠购</a></li>
+                    <li><a href="">男生跳操意外走红</a><div class="decorate">新</div></li>
+                    <li><a href="">刘涛公开真实体重</a><div class="decorate">新</div></li>
+                    <li><a href="">女粉丝攻击王力宏</a></li>
+                    <li><a href="">刘强东演讲险晕倒</a><div class="decorate">新</div></li>
+                    <li><a href="">沈阳妹子霸气征婚</a><div class="decorate">新</div></li>
+                    <li><a href="">歌手茜拉宣布婚讯</a></li>
+                    <li><a href="">智能设备优惠购</a></li>
+                    <li><a href="">男生跳操意外走红</a><div class="decorate">新</div></li>
+                    <li><a href="">刘涛公开真实体重</a></li>
+                    <li><a href="">女粉丝攻击王力宏</a><div class="decorate">新</div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <ul id="r-aside"></ul>
+    <footer>
+        <span>版权&copywillon 2017</span>
+    </footer>
+</body>
+<script src="./js/jsonp.js"></script>
+<script src="./js/init.js"></script>
+</html>
